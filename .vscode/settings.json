@@ -1,0 +1,32 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3309,
+            "driver": "MySQL",
+            "name": "go-gin-library",
+            "database": "go-library",
+            "username": "be_go_library",
+            "password": "12345678"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3310,
+            "driver": "MySQL",
+            "name": "node-restful",
+            "database": "node_restful",
+            "username": "node_restful_user",
+            "password": "your_strong_password"
+        }
+    ]
+}
